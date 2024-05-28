@@ -1,0 +1,87 @@
+<!--** Menu Lateral **-->
+<div id="menu_lateral">
+    <!--** Logo **-->
+    <div class="logo text-center">
+        <img id="logoprincipal" width="150" height="150" src="/images/logo.png" alt="Logo <%= process.env.NOMEEMPRESA%> Principal"/>
+    </div>
+    <div id="Menu_Opcoes" class="row">
+        <!--** Usuário **-->
+        <a class="col-sm-4" data-toggle="tooltip" title="Usuário" href="/Usuario">
+            <i class="fa-solid fa-circle-user"></i>
+        </a>
+
+        <!--** Sair **-->
+        <a class="col-sm-4"class="nav-link" href="/Sair"data-toggle="tooltip" title="Sair">
+            <i class="fas fa-sign-out-alt"></i>
+        </a>
+    </div>
+
+    <!--** Sidebar  **-->
+    <nav id="sidebar">
+        <!-- <a href="/"><i class="fas fa-chart-line"></i> Dashboard</a> -->
+        
+        <a id="conteudo" href="/Home">
+            <i class="fa-solid fa-house-chimney"></i> Início
+        </a>
+        
+        <a id="conteudo" href="/Administradores">
+            <i class="fas fa-user-tie"></i> Usuários
+        </a>
+        <a class="dropdown-btn">
+            <i class="fa-solid fa-gear"></i> Administração
+            <i class="fa fa-caret-down arrow"></i>
+        </a>
+        <div class="dropdown-conteudo">
+            <a href='/Vencimentos'>Administrar Vencimentos</a>
+            <a href='/Veiculos'>Administrar Veiculos</a>
+            <a href='/Informativos'>Administrar Informativos</a>
+            <a href="/AparelhosBafometros">Administrar Aparelhos Bafometros</a>
+            <a href="/RedesSociais">Administrar Redes Sociais</a>
+        </div>
+
+        <a class="dropdown-btn">
+            <i class="fas fa-user-alt"></i> Motorista
+            <i class="fa fa-caret-down arrow"></i>
+        </a>
+        <div class="dropdown-conteudo">
+            <a href='/Motorista'>Motoristas</a>
+            <a href='/VencimentosUsuario'>Preencher Documentos</a>
+            <a href='/ChecklistPreenchidos'>Checklists Preenchidos</a>            
+            <a href='/Questionario/respondido'>Questionários Preenchidos</a>
+            <a href='/Localizacoes/Lista'>Localizações</a>
+
+        </div>
+
+        <a class="dropdown-btn">
+            <i class="fa-solid fa-building"></i> Empresas
+            <i class="fa fa-caret-down arrow"></i>
+        </a>
+        <div class="dropdown-conteudo">
+            <a href="/Companhias">Companhia</a>
+            <a href="/Filiais">Unidades</a>
+            <a href="/VencimentosEmpresa">Vencimentos x Companhia</a>
+        </div>
+
+        <a class="dropdown-btn">
+            <i class="fas fa-file-download"></i> Download
+            <i class="fa fa-caret-down arrow"></i>
+        </a>
+        <div class="dropdown-conteudo">
+            <a href="/rotogramas">Rotogramas</a>
+            <a href="/manualdomotorista">Manual do Motorista</a>
+        </div>
+
+        <a class="dropdown-btn">
+            <i class="fas fa-mobile-alt"></i> SSMA
+            <i class="fa fa-caret-down arrow"></i>
+        </a>
+        <div class="dropdown-conteudo">
+            <a href="/Checklist-Mensal">Check List Mensal</a>
+            <a href="/Bafometro">Bafometro</a>
+            <a href="/dss">Dialogo Semanal</a>
+            <a href="/Questionario">Questionarios</a>
+            <a href="/Manutencao_Corretiva">Manutenção Corretiva</a>
+        </div>
+    </nav>
+    <!--** Menu opções **-->
+</div>
