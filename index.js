@@ -1,7 +1,7 @@
 const express = require('express');
 const ejs = require('ejs');
+const app = express()
 const router = express.Router();
-
 
 app.set('views', './views');
 app.set('view engine', 'ejs');
@@ -19,7 +19,7 @@ app.use(express.static(__dirname));
 
 
 // Uso das Rotas
-app.get('/',(_,res)=>res.redirecy('/Home/'));
+app.get('/',(_,res)=>res.redirect('/Home/'));
 
 app.use(HomeRouter);
 

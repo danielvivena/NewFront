@@ -1,0 +1,135 @@
+.container {
+    /* position: relative; */
+    left: 103px;
+    top: 10px;
+}
+
+/*Logo menu lateral
+    -------------------*/
+#logoprincipal {
+    max-width: 80px;
+    max-height: 80px;
+    padding: 7px 0 0 0;
+}
+
+.logo {
+    height: 100px;
+    background-color: #e5e5e5;
+}
+
+/*Menu Lateral
+    --------------*/
+#menu_lateral {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+    flex: 1;
+    /*background: rgb(15,69,78);
+    background: linear-gradient(56deg, rgba(15,69,78,1) 0%, rgba(24,107,118,1) 21%, rgba(35,155,165,1) 100%);*/
+    background-color: rgb(36, 36, 36);
+    transition: 0.7s;
+}
+
+/*Botões
+    --------*/
+.menu-toggle {
+    position: absolute;
+    left: 220px;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    margin-left: 10px;
+    transition: 0.7s;
+    color: gray;
+}
+
+    .menu-toggle:hover {
+        color: black;
+    }
+
+#sidebar {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 90%;
+    transition: 0.7s;
+    overflow-y: scroll;
+}
+    /*barra de rolagem sidebar
+    --------------------------*/
+    #sidebar::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    #sidebar::-webkit-scrollbar-track {
+        background: rgb(63, 63, 63);
+    }
+
+    #sidebar::-webkit-scrollbar-thumb {
+        background: rgb(29, 29, 29);
+        border-radius: 20px;
+    }
+
+    #sidebar a {
+        color: rgb(182, 180, 180);
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: 0.7s;
+    }
+
+a:link {
+    text-decoration: none;
+}
+
+#sidebar a:hover {
+    color: white;
+    background: rgb(70, 70, 70);
+}
+
+.dropdown-conteudo {
+    display: none;
+    background-color: rgb(44, 44, 44);
+    transition: 0.5s;
+}
+
+.arrow {
+    float: right;
+    font-size: 18px;
+}
+
+/*Opções do menu lateral
+    ------------------------*/
+#Menu_Opcoes {
+    position: relative;
+    display: flex;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+    flex-direction: row;
+    left: 12px;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    border-bottom: 0.3px solid rgb(80, 80, 80);
+    padding: 3px 0 0 0;
+    overflow: hidden;
+}
+
+    #Menu_Opcoes a {
+        background: none;
+        border: none;
+        transition: 0.7s;
+        color: rgb(145, 142, 142);
+        text-align: center;
+        width: fit-content;
+    }
+
+        #Menu_Opcoes a:hover {
+            color: white;
+        }

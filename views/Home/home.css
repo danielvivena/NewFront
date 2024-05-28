@@ -1,0 +1,34 @@
+html {
+    font-size: 12pt;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px;
+  }
+  
+  
+  /*Rodapé
+  --------*/
+  footer {
+    position: fixed;
+    width: 100%;
+    right: 0;
+    bottom: 0px;
+    padding: 5px 0 8px 0;
+  }
+  
+  
+  #map {
+    background: lightgray;
+    height: 650px;
+    width: 1130px;
+    flex:auto;
+    align-content: center;
+    margin: 0;
+    justify-content: center;
+  }
