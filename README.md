@@ -1,7 +1,6 @@
 # How to setup development environment
 ## Requirements
   * [git](https://git-scm.com/downloads)
-  * [docker](https://docs.docker.com/engine/install/)  
   * [nvm](https://github.com/nvm-sh/nvm)  (Node version manager)
 
 
