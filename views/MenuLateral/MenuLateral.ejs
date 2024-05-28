@@ -1,49 +1,72 @@
 <!--** Menu Lateral **-->
 <div id="menu_lateral">
-    <!--** Logo **-->
-    <div class="logo text-center">
-        <img id="logoprincipal" width="50" height="50" src="../../assets/icon.png" alt="Logo PORMIL Principal"/>
-    </div>
-    <div id="Menu_Opcoes" class="row">
-        <!--** Usuário **-->
-        <a class="col-sm-4" data-toggle="tooltip" title="Usuário" href="/Usuario">
-            <i class="fa-solid fa-circle-user"></i>
-        </a>
 
-        <!--** Sair **-->
-        <a class="col-sm-4"class="nav-link" href="/Sair"data-toggle="tooltip" title="Sair">
-            <i class="fas fa-sign-out-alt"></i>
-        </a>
+    <div id="upsidebar">
+
+        <div id="upsidebar-left">
+            <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DO tipo de plano -->
+                <i class="fas fa-random"></i> TIPO DE PLANO
+            </a>
+        </div>
+        <div id="upsidebar-center">
+           <H5> PLANO: COMPLETO até 08/01/2025 </H5>
+        </div>
+        <div id="upsidebar-right">
+            <p>
+                Nome Usuário <br>
+                Email usuário
+            </p>
+            <a id="conteudo"  href="/#"> <!-- COLOCAR ROTA DO de usuario -->
+                <i class="fas fa-user-circle" style="height: 50px; width: 50px;"></i>
+            </a>
+
+        </div>
+    </div>
+
+    <!--** Logo **-->
+
+    <div id="Menu_Opcoes" class="row">
+
     </div>
 
     <!--** Sidebar  **-->
+
+
     <nav id="sidebar">
-    
+
         <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DO INICIO -->
             <i class="fa-solid fa-house-chimney"></i> Início
         </a>
-        
+
         <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE CRIAR ORÇAMENTO -->
-            <i class="fas fa-user-tie"></i> Criar Orçamento
+            <i class="fas fa-plus"></i> Criar Orçamento
         </a>
         <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE CRIAR ORÇAMENTO -->
-            <i class="fas fa-user-tie"></i> Modelos de Orçamento
+            <i class="fas fa-desktop"></i> Modelo de Orçamento
         </a>
         <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE ORÇAMENTOS CRIADOS -->
-            <i class="fas fa-user-tie"></i> Meus Orçamentos
+            <i class="fas fa-server"></i> Meus Orçamentos
         </a>
+
+        <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE Composições/Serviços PRÓPRIOS -->
+            <i class="fas fa-box"></i> Composições/Serviços
+        </a>
+        <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE INSUMOS PRÓPRIOS  -->
+            <i class="fas fa-th-large"></i> Insumos
+        </a>
+
         <!-- Drop Down de Bancos -->
         <a class="dropdown-btn">
-            <i class="fa-solid fa-gear"></i> Bancos
+            <i class="fas fa-warehouse"></i> Bancos
             <i class="fa fa-caret-down arrow"></i>
         </a>
         <div class="dropdown-conteudo">
             <a class="dropdown-btn">
-                <i class="fa-solid fa-gear"></i> Próprio
+                <i class="fas fa-warehouse"></i> Próprio
                 <i class="fa fa-caret-down arrow"></i>
             </a>
-                <div class="dropdown-conteudo">
-                    
+            <div class="dropdown-conteudo">
+
                 <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE Composições/Serviços PRÓPRIOS -->
                     <i class="fas fa-user-tie"></i> Composições/Serviços
                 </a>
@@ -53,11 +76,11 @@
             </div>
 
             <a class="dropdown-btn">
-                <i class="fa-solid fa-gear"></i> Do Sistema
+                <i class="fas fa-cloud"></i> Do Sistema
                 <i class="fa fa-caret-down arrow"></i>
             </a>
-                <div class="dropdown-conteudo">
-                    
+            <div class="dropdown-conteudo">
+
                 <a id="conteudo" href="/#"> <!-- COLOCAR ROTA DE Composições/Serviços DO SISTEMA -->
                     <i class="fas fa-user-tie"></i> Composições/Serviços
                 </a>
@@ -67,19 +90,20 @@
             </div>
         </div>
 
-          <!-- Drop Down de Bancos -->
-          <a class="dropdown-btn">
-            <i class="fa-solid fa-gear"></i> Bancos
+        <!-- Drop Down de Bancos -->
+        <a class="dropdown-btn">
+            <i class="fa-solid fa-gear"></i> Administração
             <i class="fa fa-caret-down arrow"></i>
         </a>
         <div class="dropdown-conteudo">
             <a id="conteudo" href="/#"> <!-- COLOCAR ROTA FUTURA ROTA DE NOTIFICAÇÕES -->
-                <i class="fas fa-user-tie"></i> Notificações
+                <i class="fas fa-comment-dots"></i> Notificações
             </a>
         </div>
 
-        
 
     </nav>
-    <!--** Menu opções **-->
+
+
+
 </div>

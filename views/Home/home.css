@@ -8,9 +8,9 @@ html {
   }
   
   body {
-    margin-bottom: 60px;
-  }
-  
+    margin-top: 60px;
+    background-color: rgb(221, 221, 221);
+    }
   
   /*Rodapé
   --------*/
